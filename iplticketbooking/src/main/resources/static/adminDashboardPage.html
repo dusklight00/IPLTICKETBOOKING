@@ -1,0 +1,55 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="pull-right">
+            <br />
+            <a href="mainPage.html">
+              <button type="button" class="btn btn-primary">Log out</button>
+            </a>
+          </div>
+          <h1 class="mt-4">
+            Welcome Admin<span id="user-name"></span>
+            <small class="text-muted">(Admin Dashboard)</small>
+          </h1>
+          <div class="mt-4">
+            <br />
+            <a href="createMatchPage.html">
+              <button type="button" class="btn btn-primary">
+                + Create IPL Match
+              </button>
+            </a>
+            <a href="viewBookedTicketPage.html">
+              <button type="button" class="btn btn-primary">
+                View Tickets Booked
+              </button>
+            </a>
+            <a href="deleteMatchPage.html">
+              <button type="button" class="btn btn-primary">
+                Delete ILP Match
+              </button>
+            </a>
+            <a href="editMatchPage.html">
+              <button type="button" class="btn btn-primary">Update IPL Match</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+
+    <div class="container mt-4">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div id="train-details-container" class="row">
+            <!-- Train details will be dynamically inserted here -->
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

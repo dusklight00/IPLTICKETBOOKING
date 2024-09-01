@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Page</title>
+    <link rel = "Stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"> </script>
+    <style>
+      .jumbotron{
+        margin-bottom: 0px;
+      }
+      .footer{
+        background-color: #f1f1f1;
+        padding: 25px;
+      }
+      #intro-example{
+        margin-top: -20px;
+        height: 600px;
+      }
+      .main{
+        position: relative;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .btn{
+        font-size: 30px;
+      }
+      #myNavbar{
+        font-size: 32px;
+      }
+      #nav-head{
+        font-size: 36px;
+        
+      }
+      .navbar-brand {
+        display: flex;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <center> -->
+    <div class="jumbotron text-center">
+      <h1>Welcome to IPL Ticket Booking Application</h1>
+    </div>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand" id="nav-head"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1TC8U3ciyRcV2Wa58TdYMH--vgqH8617UvA&s" 
+            style="width: 80px; height: 50px; margin-right: 10px;" 
+            alt="Logo"> IPL Ticket Booking</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Body Section -->
+    <div 
+     id="intro-example"
+     class="p-5 text-center bg-image"
+     style="background-image: url(https://thefederal.com/file/2023/01/ipl-logo.webp); 
+     background-repeat:no-repeat;
+     background-size:cover" ;>
+      <div class="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="adminLoginPage.html">
+                <button type="button" class="btn btn-primary">Admin</button>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="userLoginPage.html">
+                <button type="button" class="btn btn-success">User</button>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="searchTIcketPage.html">
+                <button class="btn btn-warning">Search Matches</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     </div>
+  <div class="jumbotron text-center footer">
+    <p>&copy; 2023 IPL Ticket Booking App. All rights reserved.</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </div>
+
+
+      <!-- <br />
+      <img width="50%"  src="https://tse4.mm.bing.net/th?id=OIP.XWoVY7HeGplrl0W2E9AFwAHaEK&pid=Api&P=0&h=180" alt="hotel-vector-illustration-simple-black-600nw-1734818867"/>
+      <br />
+      <a href="userLoginPage.html">
+        <button type = "button" class = "btn btn-primary">User</button>
+      </a>
+      
+      <a href="adminLoginPage.html">
+        <button type = "button" class = "btn btn-success">Admin</button>
+      </a>
+      
+      <a href="searchTIcketPage.html">
+        <button type = "button" class = "btn btn-warning">Search Matches</button>
+      </a>
+
+    </center> -->
+  </body>
+</html>
